@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Golf Courses",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4244105,
+          37.71605297
+        ]
+      },
+      "properties": {
+        "name": "Gleneagles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5076619,
+          37.76960868
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Park Golf Course"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4944265,
+          37.78239227
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Park Golf Course"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.491034,
+          37.72581102
+        ]
+      },
+      "properties": {
+        "name": "TPC Fleming Golf Course"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4932013,
+          37.72494296
+        ]
+      },
+      "properties": {
+        "name": "TPC Harding Golf Course"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47748,
+          37.71227933
+        ]
+      },
+      "properties": {
+        "name": "San Francisco Golf Club"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.493262,
+          37.70868706
+        ]
+      },
+      "properties": {
+        "name": "The Olympic Club"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4597914,
+          37.79060038
+        ]
+      },
+      "properties": {
+        "name": "Presidio Golf Course"
+      }
+    }
+  ]
+}

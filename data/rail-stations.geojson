@@ -1,0 +1,543 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Rail Stations (Measuring question)",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3948235,
+          37.7766916
+        ]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "stopid": "70012",
+        "primary_system": "Caltrain",
+        "other_systems": "SFM 15, 30, 31, 45, N, T"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3925904,
+          37.75759625
+        ]
+      },
+      "properties": {
+        "name": "22nd St Station",
+        "primary_system": "Caltrain",
+        "other_systems": "SFM 48, 55, T"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3969994,
+          37.79295403
+        ]
+      },
+      "properties": {
+        "name": "Embarcadero",
+        "stopid": "EMBR",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N; CC CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4010642,
+          37.78952979
+        ]
+      },
+      "properties": {
+        "name": "Montgomery",
+        "stopid": "MONT",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4079773,
+          37.784468
+        ]
+      },
+      "properties": {
+        "name": "Powell",
+        "stopid": "POWL",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N, T; CC PH, PM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4136867,
+          37.77966592
+        ]
+      },
+      "properties": {
+        "name": "Civic Center / UN Plaza",
+        "stopid": "CIVC",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4195029,
+          37.76555313
+        ]
+      },
+      "properties": {
+        "name": "16th St Mission",
+        "stopid": "16TH",
+        "primary_system": "BART",
+        "other_systems": "SFM 14, 14R, 22, 33, 49, 55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4184585,
+          37.75230777
+        ]
+      },
+      "properties": {
+        "name": "24th St Mission",
+        "stopid": "24TH",
+        "primary_system": "BART",
+        "other_systems": "SFM 14, 14R, 27, 48, 49, 67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4335083,
+          37.73330853
+        ]
+      },
+      "properties": {
+        "name": "Glen Park",
+        "stopid": "GLEN",
+        "primary_system": "BART",
+        "other_systems": "SFM 23, 35, 36, 44, 52, J"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4474515,
+          37.72185912
+        ]
+      },
+      "properties": {
+        "name": "Balboa Park",
+        "stopid": "BALB",
+        "primary_system": "BART",
+        "other_systems": "SFM 8, 29, 43, 49, 54, J, K, M"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4080284,
+          37.79487644
+        ]
+      },
+      "properties": {
+        "name": "Chinatown - Rose Pak Station",
+        "stopid": "17876",
+        "primary_system": "Muni Metro",
+        "other_systems": "CC PH, PM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4064787,
+          37.78716764
+        ]
+      },
+      "properties": {
+        "name": "Union Square / Market Street Station",
+        "stopid": "17877",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4015495,
+          37.78238254
+        ]
+      },
+      "properties": {
+        "name": "Yerba Buena/Moscone Station",
+        "stopid": "17878",
+        "primary_system": "Muni Metro",
+        "notes": "Fourth/Brannan not included due to proximity to Caltrain."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4189668,
+          37.77556646
+        ]
+      },
+      "properties": {
+        "name": "Van Ness Station",
+        "stopid": "16996",
+        "primary_system": "Muni Metro",
+        "other_systems": "ACT 800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4285748,
+          37.76797746
+        ]
+      },
+      "properties": {
+        "name": "Church Station",
+        "stopid": "16998",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4347596,
+          37.76283169
+        ]
+      },
+      "properties": {
+        "name": "Castro Station",
+        "stopid": "15728",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4591738,
+          37.7480656
+        ]
+      },
+      "properties": {
+        "name": "Forest Hill Station",
+        "stopid": "16993",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4656568,
+          37.74125643
+        ]
+      },
+      "properties": {
+        "name": "West Portal Station",
+        "stopid": "16740",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3895429,
+          37.790507
+        ]
+      },
+      "properties": {
+        "name": "The Embarcadero & Folsom St",
+        "stopid": "14509",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3881388,
+          37.78380137
+        ]
+      },
+      "properties": {
+        "name": "The Embarcadero & Brannan St",
+        "stopid": "17145",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3901161,
+          37.77946356
+        ]
+      },
+      "properties": {
+        "name": "King St & 2nd St",
+        "stopid": "15234",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3897156,
+          37.77250856
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Mission Rock St",
+        "stopid": "17359",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3893487,
+          37.76829071
+        ]
+      },
+      "properties": {
+        "name": "UCSF/Chase Center",
+        "stopid": "17360",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3885849,
+          37.76011525
+        ]
+      },
+      "properties": {
+        "name": "3rd St & 20th St",
+        "stopid": "17362",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.388021,
+          37.75510377
+        ]
+      },
+      "properties": {
+        "name": "3rd St & 23rd St",
+        "stopid": "17363",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3875648,
+          37.74940343
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Marin St",
+        "stopid": "17364",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3879139,
+          37.74277999
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Evans Ave",
+        "stopid": "17352",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3908303,
+          37.73451915
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Oakdale/Palou",
+        "stopid": "17392",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3928341,
+          37.72894837
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Williams Ave",
+        "stopid": "17346",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3958795,
+          37.72222075
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Gilman/Paul",
+        "stopid": "17342",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3978201,
+          37.71859023
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Le Conte Ave",
+        "stopid": "17394",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4023203,
+          37.71228651
+        ]
+      },
+      "properties": {
+        "name": "Bayshore Blvd & Arleta/Blanken",
+        "stopid": "17359",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4048838,
+          37.70943827
+        ]
+      },
+      "properties": {
+        "name": "Bayshore Blvd & Sunnydale Ave",
+        "stopid": "17396",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4749001,
+          37.72748522
+        ]
+      },
+      "properties": {
+        "name": "19th Ave & Winston Dr (Stonestown)",
+        "stopid": "13403",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4751832,
+          37.72182958
+        ]
+      },
+      "properties": {
+        "name": "19th Ave & Holloway Ave (SF State)",
+        "stopid": "13358",
+        "primary_system": "Muni Metro"
+      }
+    }
+  ]
+}

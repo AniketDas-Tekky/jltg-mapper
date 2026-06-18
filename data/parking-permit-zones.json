@@ -1,0 +1,13 @@
+{
+  "name": "SF Residential Parking Permit Zones (Matching: permit-color question)",
+  "source": "https://www.sfmta.com/sites/default/files/pdf_map/2022/09/rpp_citywide_rc_sept2022_2.pdf",
+  "note": "Question matches on the COLOR of the nearest lettered zone. 'No zone' (no color) is not a zone; fall back to the nearest lettered zone.",
+  "colors": {
+    "red":    ["A", "H", "J", "N", "P", "Z", "EE", "HV"],
+    "orange": ["E", "I", "R", "V", "Y", "BB"],
+    "yellow": ["C", "Q", "X", "DD"],
+    "green":  ["D", "G", "M", "O", "U", "CC"],
+    "blue":   ["B", "K", "L", "S", "AA"],
+    "brown":  ["F", "T", "W"]
+  }
+}

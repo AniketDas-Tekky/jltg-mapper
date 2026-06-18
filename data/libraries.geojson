@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Public Libraries (SFPL)",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4972182,
+          37.77874605
+        ]
+      },
+      "properties": {
+        "name": "Anza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391282,
+          37.73272623
+        ]
+      },
+      "properties": {
+        "name": "Bayview"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.416134,
+          37.73896564
+        ]
+      },
+      "properties": {
+        "name": "Bernal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4101716,
+          37.79528053
+        ]
+      },
+      "properties": {
+        "name": "Chinatown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4319964,
+          37.76422128
+        ]
+      },
+      "properties": {
+        "name": "Eureka Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4332047,
+          37.72716637
+        ]
+      },
+      "properties": {
+        "name": "Excelsior"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4337485,
+          37.73395364
+        ]
+      },
+      "properties": {
+        "name": "Glen Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4289945,
+          37.79719676
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4562648,
+          37.7241157
+        ]
+      },
+      "properties": {
+        "name": "Ingleside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4157857,
+          37.77921253
+        ]
+      },
+      "properties": {
+        "name": "Main Branch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4340975,
+          37.80148902
+        ]
+      },
+      "properties": {
+        "name": "Marina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4743514,
+          37.72669378
+        ]
+      },
+      "properties": {
+        "name": "Merced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.420938,
+          37.7531744
+        ]
+      },
+      "properties": {
+        "name": "Mission"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3930971,
+          37.77552937
+        ]
+      },
+      "properties": {
+        "name": "Mission Bay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4350912,
+          37.75046438
+        ]
+      },
+      "properties": {
+        "name": "Noe Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4132528,
+          37.80266519
+        ]
+      },
+      "properties": {
+        "name": "North Beach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4659948,
+          37.71421793
+        ]
+      },
+      "properties": {
+        "name": "Ocean View"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4980482,
+          37.75138453
+        ]
+      },
+      "properties": {
+        "name": "Ortega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4510285,
+          37.77033774
+        ]
+      },
+      "properties": {
+        "name": "Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4793719,
+          37.7431039
+        ]
+      },
+      "properties": {
+        "name": "Parkside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4065137,
+          37.72710674
+        ]
+      },
+      "properties": {
+        "name": "Portola"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3976771,
+          37.76016647
+        ]
+      },
+      "properties": {
+        "name": "Potrero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4448495,
+          37.78895273
+        ]
+      },
+      "properties": {
+        "name": "Presidio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4681607,
+          37.78186652
+        ]
+      },
+      "properties": {
+        "name": "Richmond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4761833,
+          37.76345365
+        ]
+      },
+      "properties": {
+        "name": "Sunset"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4078408,
+          37.7127045
+        ]
+      },
+      "properties": {
+        "name": "Visitacion Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4660668,
+          37.74137126
+        ]
+      },
+      "properties": {
+        "name": "West Portal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4377666,
+          37.78415465
+        ]
+      },
+      "properties": {
+        "name": "Western Addition"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3707525,
+          37.82701496
+        ]
+      },
+      "properties": {
+        "name": "Treasure Island"
+      }
+    }
+  ]
+}

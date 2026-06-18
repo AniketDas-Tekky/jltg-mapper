@@ -1,0 +1,32 @@
+# --- OS / editor ---
+.DS_Store
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# --- Claude Code (local) ---
+.claude/settings.local.json
+
+# --- Python / uv (backend) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/dev-dist/
+*.local
+
+# --- Generated geo assets (large; rebuilt via scripts/) ---
+# Basemap tiles are large and machine-generated; keep them out of git.
+frontend/public/basemap/*.pmtiles

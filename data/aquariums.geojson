@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Aquariums",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4661146,
+          37.76963839
+        ]
+      },
+      "properties": {
+        "name": "Steinhart Aquarium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409318,
+          37.80869155
+        ]
+      },
+      "properties": {
+        "name": "Aquarium of the Bay"
+      }
+    }
+  ]
+}

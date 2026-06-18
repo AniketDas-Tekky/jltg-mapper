@@ -1,0 +1,244 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Movie Theaters",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4829045,
+          37.78227513
+        ]
+      },
+      "properties": {
+        "name": "4 Star Theater",
+        "address": "2200 Clement St, San Francisco, CA 94121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4189868,
+          37.75627715
+        ]
+      },
+      "properties": {
+        "name": "Alamo Drafthouse Cinema New Mission",
+        "address": "2550 Mission St, San Francisco, CA 94110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4325656,
+          37.78500331
+        ]
+      },
+      "properties": {
+        "name": "AMC Kabuki 8",
+        "address": "1881 Post St, San Francisco, CA 94115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4034199,
+          37.78442255
+        ]
+      },
+      "properties": {
+        "name": "AMC Metreon 16",
+        "address": "135 4th St #3000, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.497954,
+          37.77589407
+        ]
+      },
+      "properties": {
+        "name": "Balboa Theatre",
+        "address": "3630 Balboa St, San Francisco, CA 94121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.434757,
+          37.76204352
+        ]
+      },
+      "properties": {
+        "name": "Castro Theatre",
+        "address": "429 Castro St, San Francisco, CA 94114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3883686,
+          37.78430621
+        ]
+      },
+      "properties": {
+        "name": "Delancey Street Screening Room",
+        "address": "600 The Embarcadero, San Francisco, CA 94107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4214209,
+          37.78124087
+        ]
+      },
+      "properties": {
+        "name": "Landmark's Opera Plaza Cinema",
+        "address": "601 Van Ness Ave, San Francisco, CA 94102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4386341,
+          37.80042567
+        ]
+      },
+      "properties": {
+        "name": "Marina Theater",
+        "address": "2149 Chestnut St, San Francisco, CA 94123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213138,
+          37.75719308
+        ]
+      },
+      "properties": {
+        "name": "Other Cinema",
+        "address": "992 Valencia St, San Francisco, CA 94110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4011167,
+          37.7860043
+        ]
+      },
+      "properties": {
+        "name": "Phyllis Wattis Theater",
+        "address": "151 3rd St, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4419416,
+          37.80027698
+        ]
+      },
+      "properties": {
+        "name": "Presidio Movie Theater",
+        "address": "2340 Chestnut St, San Francisco, CA 94123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4764473,
+          37.72900892
+        ]
+      },
+      "properties": {
+        "name": "Regal Stonestown Galleria",
+        "address": "3251 20th Ave, San Francisco, CA 94132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4224009,
+          37.76466239
+        ]
+      },
+      "properties": {
+        "name": "Roxie Theater",
+        "address": "3117 16th St, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4467452,
+          37.78845195
+        ]
+      },
+      "properties": {
+        "name": "Vogue Theatre",
+        "address": "3290 Sacramento St, San Francisco, CA 94115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4792938,
+          37.72213757
+        ]
+      },
+      "properties": {
+        "name": "August Coppola Theatre",
+        "address": "Coppola Theatre, 1600 Holloway Ave, San Francisco, CA 94132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4209452,
+          37.78519308
+        ]
+      },
+      "properties": {
+        "name": "Apple Cinemas Van Ness IMAX",
+        "address": "1000 Van Ness Ave, San Francisco, CA 94109"
+      }
+    }
+  ]
+}

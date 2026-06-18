@@ -1,0 +1,401 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Museums",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Academy of Art University Automobile Museum",
+        "address": "1849 Washington St, San Francisco, CA 94109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "African American Art & Culture Complex",
+        "address": "762 Fulton St, San Francisco, CA 94102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "The American Bookbinders Museum",
+        "address": "355 Clementina St, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Antique Vibrator Museum",
+        "address": "1620 Polk St, San Francisco, CA 94109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Asian Art Museum of San Francisco",
+        "address": "200 Larkin St, San Francisco, CA 94102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "The Beat Museum",
+        "address": "540 Broadway, San Francisco, CA 94133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Boudin Museum",
+        "address": "160 Jefferson St, San Francisco, CA 94133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "The Cable Car Museum",
+        "address": "1201 Mason St, San Francisco, CA 94108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "California Academy of Sciences",
+        "address": "55 Music Concourse Dr, San Francisco, CA 94118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Cartoon Art Museum",
+        "address": "781 Beach St, San Francisco, CA 94109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Children’s Creativity Museum",
+        "address": "221 4th St, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Chinese Historical Society of America Museum",
+        "address": "965 Clay St, San Francisco, CA 94108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Conservatory of Flowers",
+        "address": "100 John F Kennedy Dr, San Francisco, CA 94118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "The Contemporary Jewish Museum",
+        "address": "736 Mission St, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "de Young Museum",
+        "address": "50 Hagiwara Tea Garden Dr, San Francisco, CA 94118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Exploratorium",
+        "address": "Pier 15 Embarcadero at, Green St, San Francisco, CA 94111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Gadar Memorial",
+        "address": "5 Wood St, San Francisco, CA 94118",
+        "notes": "Only 11 reviews and you need permission from the Indian Consulate to go in, but I think it just barely counts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "GLBT Historical Society Museum",
+        "address": "4127 18th St, San Francisco, CA 94114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "The Gregangelo Museum",
+        "address": "225 San Leandro Way, San Francisco, CA 94127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Haas-Lilienthal House",
+        "address": "2007 Franklin St, San Francisco, CA 94109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Institute of Contemporary Art San Francisco (ICASF)",
+        "address": "345 Montgomery St, San Francisco, CA 94104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "International Art Museum of America",
+        "address": "1023 Market St, San Francisco, CA 94103",
+        "notes": "Run by a cult, one of the worst “museums” I’ve ever been to, but it still counts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Legion of Honor",
+        "address": "100 34th Ave, San Francisco, CA 94121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Letterform Archive",
+        "address": "2325 3rd St Floor 4R, San Francisco, CA 94107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Lucasfilm Lobby",
+        "address": "1 Letterman Dr Building B, San Francisco, CA 94129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Maritime Museum",
+        "address": "900 Beach St, San Francisco, CA 94109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "McElroy Octagon House",
+        "address": "2645 Gough St, San Francisco, CA 94123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "The Mexican Museum",
+        "address": "649 Mission St #419, San Francisco, CA 94105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Mission Science Workshop",
+        "address": "3750 18th St, San Francisco, CA 94114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Mission Science Workshop, Excelsior Site",
+        "address": "4458 Mission St, San Francisco, CA 94112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Musée Mécanique",
+        "address": "Pier 45, San Francisco, CA 94133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Museo Italo Americano",
+        "address": "2 Marina Blvd, San Francisco, CA 94123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Museum of the African Diaspora",
+        "address": "685 Mission St, San Francisco, CA 94105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Museum of Craft and Design",
+        "address": "2569 3rd St, San Francisco, CA 94107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Museum of Russian Culture",
+        "address": "2450 Sutter St, San Francisco, CA 94115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Old Mission Dolores Museum",
+        "address": "320 Dolores St, San Francisco, CA 94110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Pacific Heritage Museum",
+        "address": "608 Commercial St, San Francisco, CA 94111",
+        "notes": "Only 8 reviews but that’s enough."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Presidio Officers’ Club",
+        "address": "50 Moraga Ave, San Francisco, CA 94129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Randall Museum",
+        "address": "199 Museum Way, San Francisco, CA 94114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "San Francisco Fire Department Museum",
+        "address": "655 Presidio Ave, San Francisco, CA 94115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "SFMOMA",
+        "address": "151 3rd St, San Francisco, CA 94103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "San Francisco Railway Museum",
+        "address": "77 Steuart St, San Francisco, CA 94105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "SS Jeremiah O’Brien",
+        "address": "Pier 35, San Francisco, CA 94133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Tenderloin Museum",
+        "address": "398 Eddy St, San Francisco, CA 94102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Truhlsen-Marmor Museum of the Eye",
+        "address": "645 Beach St, San Francisco, CA 94109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "USS Pampanito",
+        "address": "45 Pier, San Francisco, CA 94133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Walt Disney Family Museum",
+        "address": "104 Montgomery St, San Francisco, CA 94129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Wells Fargo Museum",
+        "address": "420 Montgomery St, San Francisco, CA 94104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "WWII Pacific War Memorial Hall",
+        "address": "809 Sacramento St, San Francisco, CA 94108"
+      }
+    }
+  ]
+}

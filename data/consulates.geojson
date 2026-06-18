@@ -1,0 +1,538 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Foreign Consulates",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4004088,
+          37.78971752
+        ]
+      },
+      "properties": {
+        "name": "Australia",
+        "address": "575 Market Street, Suite 1800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4024676,
+          37.79243908
+        ]
+      },
+      "properties": {
+        "name": "Brazil",
+        "address": "300 Montgomery Street, Suite 300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4042171,
+          37.79296546
+        ]
+      },
+      "properties": {
+        "name": "Canada",
+        "address": "580 California Street, 14th Floor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4076377,
+          37.78517352
+        ]
+      },
+      "properties": {
+        "name": "Chile",
+        "address": "870 Market Street, Suite 1058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.427787,
+          37.78471413
+        ]
+      },
+      "properties": {
+        "name": "China",
+        "address": "1450 Laguna Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4026842,
+          37.79371853
+        ]
+      },
+      "properties": {
+        "name": "Colombia",
+        "address": "456 Montgomery Street, Suite 400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4189996,
+          37.78157586
+        ]
+      },
+      "properties": {
+        "name": "El Salvador",
+        "address": "500 Golden Gate Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3989645,
+          37.78704969
+        ]
+      },
+      "properties": {
+        "name": "Estonia",
+        "address": "101 Natoma Street, 3rd Floor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4019216,
+          37.78978874
+        ]
+      },
+      "properties": {
+        "name": "France",
+        "address": "44 Montgomery Street, Suite 3400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.403652,
+          37.79788347
+        ]
+      },
+      "properties": {
+        "name": "Georgia",
+        "address": "930 Montgomery Street, Unit 301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4271532,
+          37.79373486
+        ]
+      },
+      "properties": {
+        "name": "Germany",
+        "address": "1960 Jackson Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4269882,
+          37.79598921
+        ]
+      },
+      "properties": {
+        "name": "Greece",
+        "address": "2441 Gough Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4042371,
+          37.79468183
+        ]
+      },
+      "properties": {
+        "name": "Guatemala",
+        "address": "659 A Merchant Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3999566,
+          37.78940148
+        ]
+      },
+      "properties": {
+        "name": "India",
+        "address": "71 Stevenson St., Suite 2200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4165236,
+          37.80463581
+        ]
+      },
+      "properties": {
+        "name": "Indonesia",
+        "address": "1111 Columbus Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4027465,
+          37.78882027
+        ]
+      },
+      "properties": {
+        "name": "Ireland",
+        "address": "1 Post Street, Suite 2300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4025251,
+          37.7935371
+        ]
+      },
+      "properties": {
+        "name": "Israel",
+        "address": "456 Montgomery Street, Suite 2100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4330077,
+          37.79448711
+        ]
+      },
+      "properties": {
+        "name": "Italy",
+        "address": "2590 Webster Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4004358,
+          37.7938812
+        ]
+      },
+      "properties": {
+        "name": "Japan",
+        "address": "275 Battery Street, Suite 2100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4026075,
+          37.7936494
+        ]
+      },
+      "properties": {
+        "name": "Kazakhstan",
+        "address": "456 Montgomery Street, Unit 950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4012663,
+          37.79052036
+        ]
+      },
+      "properties": {
+        "name": "Luxembourg",
+        "address": "1 Sansome Street, Suite 830"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3956757,
+          37.78688444
+        ]
+      },
+      "properties": {
+        "name": "Mexico",
+        "address": "532 Folsom Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4021321,
+          37.7928992
+        ]
+      },
+      "properties": {
+        "name": "Mongolia",
+        "address": "465 California Street, Suite 200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4034095,
+          37.78931879
+        ]
+      },
+      "properties": {
+        "name": "Netherlands",
+        "address": "120 Kearny Street, Suite 3100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4004807,
+          37.78971087
+        ]
+      },
+      "properties": {
+        "name": "Norway",
+        "address": "575 Market Street, Suite 3950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4072603,
+          37.7852397
+        ]
+      },
+      "properties": {
+        "name": "Peru",
+        "address": "870 Market Street, Suite 1075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407929,
+          37.78912321
+        ]
+      },
+      "properties": {
+        "name": "Philippines",
+        "address": "447 Sutter Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4471062,
+          37.79033432
+        ]
+      },
+      "properties": {
+        "name": "Portugal",
+        "address": "3298 Washington Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4007259,
+          37.7893966
+        ]
+      },
+      "properties": {
+        "name": "Singapore",
+        "address": "595 Market Street, Suite 2450"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4506616,
+          37.78891204
+        ]
+      },
+      "properties": {
+        "name": "South Korea",
+        "address": "3500 Clay Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.423669,
+          37.78729146
+        ]
+      },
+      "properties": {
+        "name": "Spain",
+        "address": "1405 Sutter Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4007447,
+          37.78943394
+        ]
+      },
+      "properties": {
+        "name": "Sweden",
+        "address": "595 Market Street, Suite 1350"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39817,
+          37.80220548
+        ]
+      },
+      "properties": {
+        "name": "Switzerland",
+        "address": "Pier 17, Suite 600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4003475,
+          37.78168196
+        ]
+      },
+      "properties": {
+        "name": "Taiwan",
+        "address": "345 4th St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40602,
+          37.7910026
+        ]
+      },
+      "properties": {
+        "name": "Ukraine",
+        "address": "530 Bush Street, Suite 402"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4012621,
+          37.79046325
+        ]
+      },
+      "properties": {
+        "name": "United Kingdom",
+        "address": "1 Sansome Street, Suite 580"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3989743,
+          37.79215139
+        ]
+      },
+      "properties": {
+        "name": "Uruguay",
+        "address": "111 Pine Street, Suite 1650"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4230827,
+          37.7906127
+        ]
+      },
+      "properties": {
+        "name": "Vietnam",
+        "address": "1700 California Street, Suite 580"
+      }
+    }
+  ]
+}

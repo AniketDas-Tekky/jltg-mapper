@@ -1,0 +1,244 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Farmers Markets",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4098459,
+          37.73577285
+        ]
+      },
+      "properties": {
+        "name": "Alemany Farmers Market",
+        "dotw": "Sat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4330627,
+          37.7833252
+        ]
+      },
+      "properties": {
+        "name": "Fillmore Farmers Market",
+        "dotw": "Sat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3935994,
+          37.7953472
+        ]
+      },
+      "properties": {
+        "name": "Ferry Plaza Farmers Market",
+        "dotw": "Tue, Thu, Sat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.428925,
+          37.75146749
+        ]
+      },
+      "properties": {
+        "name": "Noe Valley Farmers Market",
+        "dotw": "Sat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4116359,
+          37.8017981
+        ]
+      },
+      "properties": {
+        "name": "North Beach Farmers Market",
+        "dotw": "Sat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4618747,
+          37.78323237
+        ]
+      },
+      "properties": {
+        "name": "Clement St Farmers Market",
+        "dotw": "Sun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4402903,
+          37.77341061
+        ]
+      },
+      "properties": {
+        "name": "Divisadero Farmers Market",
+        "dotw": "Sun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4312927,
+          37.80615617
+        ]
+      },
+      "properties": {
+        "name": "Fort Mason Farmers Market",
+        "dotw": "Sun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4159245,
+          37.77974182
+        ]
+      },
+      "properties": {
+        "name": "Heart of the City Farmers Market",
+        "dotw": "Sun, Wed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4657233,
+          37.7636214
+        ]
+      },
+      "properties": {
+        "name": "Inner Sunset Farmers Market",
+        "dotw": "Sun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4956179,
+          37.75094528
+        ]
+      },
+      "properties": {
+        "name": "Outer Sunset Farmers Market & Mercantile",
+        "dotw": "Sun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4792651,
+          37.72987636
+        ]
+      },
+      "properties": {
+        "name": "Stonestown Farmers Market",
+        "dotw": "Sun"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4333148,
+          37.76456399
+        ]
+      },
+      "properties": {
+        "name": "Castro Farmers Market",
+        "dotw": "Wed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4805217,
+          37.72229958
+        ]
+      },
+      "properties": {
+        "name": "Associated Students Farmers Market",
+        "dotw": "Thu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5038209,
+          37.78172086
+        ]
+      },
+      "properties": {
+        "name": "VA San Francisco Farmers Market",
+        "dotw": "Wed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4197452,
+          37.75567515
+        ]
+      },
+      "properties": {
+        "name": "Mission Community Market",
+        "dotw": "Thu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4029241,
+          37.78961677
+        ]
+      },
+      "properties": {
+        "name": "San Francisco Farmers Market at Crocker Galleria",
+        "dotw": "Tue, Thu"
+      }
+    }
+  ]
+}

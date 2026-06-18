@@ -1,0 +1,58 @@
+{
+  "name": "SF Small-Game Hide & Seek homebrew config",
+  "version": "1.2 (Jun 2026)",
+  "source": "https://docs.google.com/document/d/17xUTygVHs2I1ohq7xvBnkbqEZYaWY5ZM7zHXJmdUIgs/edit",
+  "size": "Small",
+  "hidingPeriodMinutes": 30,
+  "hidingZoneRadius": "0.25 mi",
+  "startingPoint": { "name": "Van Ness Station (Van Ness & Market)", "lat": 37.77509, "lon": -122.41924 },
+  "borders": {
+    "definition": "City & County of San Francisco land limits, including Treasure Island",
+    "excluded": [
+      "Alcatraz (federal land)",
+      "The Farallon Islands (require special permission)",
+      "SF-owned slivers of Angel Island and Alameda Island (no valid stations)",
+      "Daly City / Brisbane zips: 94015, 94014, 94005"
+    ],
+    "notes": "Hider may leave the borders during hiding time if they return to a valid station's zone before time expires; border-edge zones may be semicircles."
+  },
+  "landmasses": ["Treasure Island", "Strawberry Hill (in Blue Heron / Stow Lake)", "Everything else in San Francisco"],
+  "administrativeDivision": {
+    "inPlay": "4th = SF Supervisorial Districts D1-D11",
+    "reference": "https://www.sf.gov/sites/default/files/2024-06/Citywide_Precinct_Map_July_2022%5B1%5D.pdf"
+  },
+  "questions": {
+    "matching": {
+      "active": ["Station's Name Length", "Street or Path", "4th Administrative Division (District)", "Landmass", "Dog Park", "Golf Course", "Museum", "Movie Theater", "Hospital", "Library", "Foreign Consulate", "Mountain (16 hills >400ft)"],
+      "modified": {
+        "Transit Line": "Seekers must be moving on a line and ask 'Does my line stop in your hiding zone?' — Yes if the line stops within 0.25mi of the hider's chosen station.",
+        "Mountain": "Only the 16 curated hills >400ft (mountains.geojson)",
+        "Park": "Only the 36 dog parks (dog-parks.geojson)"
+      },
+      "removed": ["Commercial Airport", "1st/2nd/3rd Administrative Division", "Amusement Park", "Zoo", "Aquarium (too powerful for matching)"]
+    },
+    "measuring": {
+      "active": ["Sea Level", "Body of Water", "Coastline", "Rail Station", "Mountain", "Dog Park", "Aquarium", "Golf Course", "Museum", "Movie Theater", "Hospital", "Library", "Foreign Consulate"],
+      "modified": {
+        "Coastline": "Includes the Bay side or the Pacific, whichever is closer (avoids a 50/50).",
+        "Mountain": "16 curated hills >400ft",
+        "Park": "36 dog parks"
+      },
+      "removed": ["Commercial Airport", "High-Speed Train Line", "International Border", "1st/2nd Administrative Division Border", "Amusement Park", "Zoo"]
+    },
+    "photo": {
+      "active": ["Any building visible from transit station"],
+      "addedFromMedium": ["Trace Nearest Street/Path", "Two Buildings", "Restaurant Interior", "Park", "Grocery Store Aisle", "Place of Worship"]
+    },
+    "homebrewUntested": {
+      "matching": ["Farmers Market", "Residential Parking Permit zone color"],
+      "measuring": ["Cannabis Dispensary"],
+      "photo": ["Picture of a house number", "30 seconds of ambient audio"]
+    }
+  },
+  "homebrewCursesUntested": [
+    "The Curse of the 49er",
+    "The Curse of Antoinette Cattani",
+    "The Curse of Carcinization"
+  ]
+}

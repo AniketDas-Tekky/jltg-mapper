@@ -1,0 +1,429 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Dog Parks (Park question)",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4354808,
+          37.77614736
+        ]
+      },
+      "properties": {
+        "name": "Alamo Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4365923,
+          37.79072071
+        ]
+      },
+      "properties": {
+        "name": "Alta Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4436231,
+          37.7265651
+        ]
+      },
+      "properties": {
+        "name": "Balboa Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4119278,
+          37.74291415
+        ]
+      },
+      "properties": {
+        "name": "Bernal Heights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3992632,
+          37.77080379
+        ]
+      },
+      "properties": {
+        "name": "Berry Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4427066,
+          37.76876819
+        ]
+      },
+      "properties": {
+        "name": "Buena Vista"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3934942,
+          37.77238596
+        ]
+      },
+      "properties": {
+        "name": "Channel Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.440161,
+          37.76537452
+        ]
+      },
+      "properties": {
+        "name": "Corona Heights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4305453,
+          37.71453742
+        ]
+      },
+      "properties": {
+        "name": "Crocker Amazon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4324871,
+          37.76966968
+        ]
+      },
+      "properties": {
+        "name": "Duboce Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4363311,
+          37.7598002
+        ]
+      },
+      "properties": {
+        "name": "Eureka Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4209884,
+          37.80442691
+        ]
+      },
+      "properties": {
+        "name": "Francisco Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4604707,
+          37.76716417
+        ]
+      },
+      "properties": {
+        "name": "GGP #1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4570864,
+          37.77394854
+        ]
+      },
+      "properties": {
+        "name": "GGP #2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49523,
+          37.76618709
+        ]
+      },
+      "properties": {
+        "name": "GGP #3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4993059,
+          37.77112095
+        ]
+      },
+      "properties": {
+        "name": "GGP Training Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.426812,
+          37.78166829
+        ]
+      },
+      "properties": {
+        "name": "Jefferson Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4273265,
+          37.79110728
+        ]
+      },
+      "properties": {
+        "name": "Lafayette Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4048677,
+          37.75905717
+        ]
+      },
+      "properties": {
+        "name": "McKinley Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4189682,
+          37.71959195
+        ]
+      },
+      "properties": {
+        "name": "McLaren Shelley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4273544,
+          37.71502009
+        ]
+      },
+      "properties": {
+        "name": "McLaren Geneva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4264088,
+          37.76036902
+        ]
+      },
+      "properties": {
+        "name": "Mission Dolores N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4273326,
+          37.75935059
+        ]
+      },
+      "properties": {
+        "name": "Mission Dolores S"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Moscone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4668902,
+          37.78739448
+        ]
+      },
+      "properties": {
+        "name": "Mountain Lake Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4859688,
+          37.73595577
+        ]
+      },
+      "properties": {
+        "name": "Pine Lake Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3963822,
+          37.75710508
+        ]
+      },
+      "properties": {
+        "name": "Potrero Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4217602,
+          37.77019987
+        ]
+      },
+      "properties": {
+        "name": "SoMa West"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4763043,
+          37.73500273
+        ]
+      },
+      "properties": {
+        "name": "Stern Grove"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4137024,
+          37.7806792
+        ]
+      },
+      "properties": {
+        "name": "UN Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4384444,
+          37.74647078
+        ]
+      },
+      "properties": {
+        "name": "Upper Douglass"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4271052,
+          37.74261523
+        ]
+      },
+      "properties": {
+        "name": "Upper Noe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4354972,
+          37.74029001
+        ]
+      },
+      "properties": {
+        "name": "Walter Haas"
+      }
+    }
+  ]
+}

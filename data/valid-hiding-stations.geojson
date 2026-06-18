@@ -1,0 +1,3051 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Valid Hiding Stations",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3948235,
+          37.7766916
+        ]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "stopid": "70012",
+        "primary_system": "Caltrain",
+        "other_systems": "SFM 15, 30, 31, 45, N, T"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3925904,
+          37.75759625
+        ]
+      },
+      "properties": {
+        "name": "22nd St Station",
+        "primary_system": "Caltrain",
+        "other_systems": "SFM 48, 55, T"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3969994,
+          37.79295403
+        ]
+      },
+      "properties": {
+        "name": "Embarcadero",
+        "stopid": "EMBR",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N; CC CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4010642,
+          37.78952979
+        ]
+      },
+      "properties": {
+        "name": "Montgomery",
+        "stopid": "MONT",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4079773,
+          37.784468
+        ]
+      },
+      "properties": {
+        "name": "Powell",
+        "stopid": "POWL",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N, T; CC PH, PM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4136867,
+          37.77966592
+        ]
+      },
+      "properties": {
+        "name": "Civic Center / UN Plaza",
+        "stopid": "CIVC",
+        "primary_system": "BART",
+        "other_systems": "SFM J, K, L, M, N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4195029,
+          37.76555313
+        ]
+      },
+      "properties": {
+        "name": "16th St Mission",
+        "stopid": "16TH",
+        "primary_system": "BART",
+        "other_systems": "SFM 14, 14R, 22, 33, 49, 55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4184585,
+          37.75230777
+        ]
+      },
+      "properties": {
+        "name": "24th St Mission",
+        "stopid": "24TH",
+        "primary_system": "BART",
+        "other_systems": "SFM 14, 14R, 27, 48, 49, 67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4335083,
+          37.73330853
+        ]
+      },
+      "properties": {
+        "name": "Glen Park",
+        "stopid": "GLEN",
+        "primary_system": "BART",
+        "other_systems": "SFM 23, 35, 36, 44, 52, J"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4474515,
+          37.72185912
+        ]
+      },
+      "properties": {
+        "name": "Balboa Park",
+        "stopid": "BALB",
+        "primary_system": "BART",
+        "other_systems": "SFM 8, 29, 43, 49, 54, J, K, M"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3936077,
+          37.79549229
+        ]
+      },
+      "properties": {
+        "name": "Ferry Building",
+        "primary_system": "TISF",
+        "other_systems": "BART; SFM F, N",
+        "notes": "There are other ferry systems that depart from here, but the Treasure Island Ferry (TISF) is the only one that can take you to a valid station."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3721677,
+          37.81674984
+        ]
+      },
+      "properties": {
+        "name": "Treasure Island Ferry Terminal",
+        "primary_system": "TISF",
+        "other_systems": "SFM 25",
+        "notes": "Nearest Muni Stop Treasure Island Rd & Clipper Cove Way (stopID 18000)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4080284,
+          37.79487644
+        ]
+      },
+      "properties": {
+        "name": "Chinatown - Rose Pak Station",
+        "stopid": "17876",
+        "primary_system": "Muni Metro",
+        "other_systems": "CC PH, PM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4064787,
+          37.78716764
+        ]
+      },
+      "properties": {
+        "name": "Union Square / Market Street Station",
+        "stopid": "17877",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4015495,
+          37.78238254
+        ]
+      },
+      "properties": {
+        "name": "Yerba Buena/Moscone Station",
+        "stopid": "17878",
+        "primary_system": "Muni Metro",
+        "notes": "Fourth/Brannan not included due to proximity to Caltrain."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4189668,
+          37.77556646
+        ]
+      },
+      "properties": {
+        "name": "Van Ness Station",
+        "stopid": "16996",
+        "primary_system": "Muni Metro",
+        "other_systems": "ACT 800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4285748,
+          37.76797746
+        ]
+      },
+      "properties": {
+        "name": "Church Station",
+        "stopid": "16998",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4347596,
+          37.76283169
+        ]
+      },
+      "properties": {
+        "name": "Castro Station",
+        "stopid": "15728",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4591738,
+          37.7480656
+        ]
+      },
+      "properties": {
+        "name": "Forest Hill Station",
+        "stopid": "16993",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4656568,
+          37.74125643
+        ]
+      },
+      "properties": {
+        "name": "West Portal Station",
+        "stopid": "16740",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3895429,
+          37.790507
+        ]
+      },
+      "properties": {
+        "name": "The Embarcadero & Folsom St",
+        "stopid": "14509",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3881388,
+          37.78380137
+        ]
+      },
+      "properties": {
+        "name": "The Embarcadero & Brannan St",
+        "stopid": "17145",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3901161,
+          37.77946356
+        ]
+      },
+      "properties": {
+        "name": "King St & 2nd St",
+        "stopid": "15234",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3897156,
+          37.77250856
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Mission Rock St",
+        "stopid": "17359",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3893487,
+          37.76829071
+        ]
+      },
+      "properties": {
+        "name": "UCSF/Chase Center",
+        "stopid": "17360",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3885849,
+          37.76011525
+        ]
+      },
+      "properties": {
+        "name": "3rd St & 20th St",
+        "stopid": "17362",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.388021,
+          37.75510377
+        ]
+      },
+      "properties": {
+        "name": "3rd St & 23rd St",
+        "stopid": "17363",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3875648,
+          37.74940343
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Marin St",
+        "stopid": "17364",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3879139,
+          37.74277999
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Evans Ave",
+        "stopid": "17352",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3908303,
+          37.73451915
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Oakdale/Palou",
+        "stopid": "17392",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3928341,
+          37.72894837
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Williams Ave",
+        "stopid": "17346",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3958795,
+          37.72222075
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Gilman/Paul",
+        "stopid": "17342",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3978201,
+          37.71859023
+        ]
+      },
+      "properties": {
+        "name": "3rd St & Le Conte Ave",
+        "stopid": "17394",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4023203,
+          37.71228651
+        ]
+      },
+      "properties": {
+        "name": "Bayshore Blvd & Arleta/Blanken",
+        "stopid": "17359",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4048838,
+          37.70943827
+        ]
+      },
+      "properties": {
+        "name": "Bayshore Blvd & Sunnydale Ave",
+        "stopid": "17396",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4281192,
+          37.76109433
+        ]
+      },
+      "properties": {
+        "name": "Church St & 18th St",
+        "stopid": "13987",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4275355,
+          37.75191398
+        ]
+      },
+      "properties": {
+        "name": "Church St & 24th St",
+        "stopid": "13995",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4245153,
+          37.74220132
+        ]
+      },
+      "properties": {
+        "name": "30th St & Dolores St",
+        "stopid": "13538",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4423357,
+          37.72597089
+        ]
+      },
+      "properties": {
+        "name": "San Jose Ave & Santa Ynez Ave",
+        "stopid": "16287",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4714582,
+          37.73535397
+        ]
+      },
+      "properties": {
+        "name": "West Portal Ave & Sloat Blvd (Saint Francis Cir)",
+        "stopid": "16503",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4678693,
+          37.7284918
+        ]
+      },
+      "properties": {
+        "name": "Ocean Ave & Aptos Ave",
+        "stopid": "15780",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4615305,
+          37.72500033
+        ]
+      },
+      "properties": {
+        "name": "Ocean Ave & Jules Ave",
+        "stopid": "15793",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4538466,
+          37.72347945
+        ]
+      },
+      "properties": {
+        "name": "Ocean Ave & Lee St",
+        "stopid": "15795",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4749001,
+          37.72748522
+        ]
+      },
+      "properties": {
+        "name": "19th Ave & Winston Dr (Stonestown)",
+        "stopid": "13403",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4751832,
+          37.72182958
+        ]
+      },
+      "properties": {
+        "name": "19th Ave & Holloway Ave (SF State)",
+        "stopid": "13358",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4672328,
+          37.71422559
+        ]
+      },
+      "properties": {
+        "name": "Randolph St & Arch St",
+        "stopid": "16173",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4562171,
+          37.71317135
+        ]
+      },
+      "properties": {
+        "name": "Broad St & Plymouth Ave",
+        "stopid": "13719",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4335695,
+          37.76953663
+        ]
+      },
+      "properties": {
+        "name": "Duboce Ave & Noe St (Sunset Tunnel East Portal)",
+        "stopid": "17252",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4498242,
+          37.76600432
+        ]
+      },
+      "properties": {
+        "name": "Carl St & Cole St",
+        "stopid": "13909",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4585824,
+          37.76457036
+        ]
+      },
+      "properties": {
+        "name": "Irving St & 2nd Ave",
+        "stopid": "15118",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4667893,
+          37.76237268
+        ]
+      },
+      "properties": {
+        "name": "Judah St & 9th Ave",
+        "stopid": "15193",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4768336,
+          37.76187818
+        ]
+      },
+      "properties": {
+        "name": "Judah St & 19th Ave",
+        "stopid": "15199",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4858296,
+          37.76144863
+        ]
+      },
+      "properties": {
+        "name": "Judah St & 28th Ave",
+        "stopid": "15205",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4956632,
+          37.76093465
+        ]
+      },
+      "properties": {
+        "name": "Judah St & Sunset Blvd",
+        "stopid": "15224",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.502565,
+          37.76063467
+        ]
+      },
+      "properties": {
+        "name": "Judah St & 43rd Ave",
+        "stopid": "15213",
+        "primary_system": "Muni Metro",
+        "notes": "outbound stop — inbound is at Taraval & 17th"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5090076,
+          37.76037283
+        ]
+      },
+      "properties": {
+        "name": "Judah St & La Playa St (Ocean Beach)",
+        "stopid": "15221",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4713043,
+          37.74315168
+        ]
+      },
+      "properties": {
+        "name": "15th Ave & Taraval St",
+        "stopid": "13266",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4755164,
+          37.74321894
+        ]
+      },
+      "properties": {
+        "name": "Taraval St & 19th Ave",
+        "stopid": "16616",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4803466,
+          37.74290782
+        ]
+      },
+      "properties": {
+        "name": "Taraval St & 23rd Ave",
+        "stopid": "16620",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4873291,
+          37.74261758
+        ]
+      },
+      "properties": {
+        "name": "Taraval St & 30th Ave",
+        "stopid": "16626",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4941824,
+          37.74227794
+        ]
+      },
+      "properties": {
+        "name": "Taraval St & Sunset Blvd",
+        "stopid": "16640",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5044959,
+          37.74183529
+        ]
+      },
+      "properties": {
+        "name": "Taraval St & 46th Ave",
+        "stopid": "16638",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5044439,
+          37.73613819
+        ]
+      },
+      "properties": {
+        "name": "Wawona St & 46th Ave (SF Zoo)",
+        "stopid": "16932",
+        "primary_system": "Muni Metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3719029,
+          37.82828908
+        ]
+      },
+      "properties": {
+        "name": "Ave H & 13th St",
+        "stopid": "17558",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3751227,
+          37.8235907
+        ]
+      },
+      "properties": {
+        "name": "Ave B & 9th Ave",
+        "stopid": "17004",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4105677,
+          37.8006945
+        ]
+      },
+      "properties": {
+        "name": "Columbus Ave & Union St",
+        "stopid": "14119",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8BX, 30, 39, 41, 45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5099216,
+          37.77349401
+        ]
+      },
+      "properties": {
+        "name": "Cabrillo St & La Playa St",
+        "stopid": "13927",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 5R, 18, 31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.509471,
+          37.77909224
+        ]
+      },
+      "properties": {
+        "name": "48th Ave & Point Lobos Ave",
+        "stopid": "13608",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 38, 38R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5042024,
+          37.78187459
+        ]
+      },
+      "properties": {
+        "name": "V.A. Hospital",
+        "stopid": "15511",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 38"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4996871,
+          37.7849987
+        ]
+      },
+      "properties": {
+        "name": "Legion of Honor",
+        "stopid": "14874",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4930726,
+          37.77993634
+        ]
+      },
+      "properties": {
+        "name": "Geary Blvd & 33rd Ave",
+        "stopid": "14277",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 38, 38R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4850711,
+          37.78369092
+        ]
+      },
+      "properties": {
+        "name": "25th Ave & California St",
+        "stopid": "18135",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4818454,
+          37.79202436
+        ]
+      },
+      "properties": {
+        "name": "Bowley St & Lincoln Blvd",
+        "stopid": "13706",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4844209,
+          37.77274616
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & 25th Ave",
+        "stopid": "14748",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 5R, 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4729416,
+          37.78467238
+        ]
+      },
+      "properties": {
+        "name": "California St & Park Presidio Blvd",
+        "stopid": "13886",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4726822,
+          37.78083197
+        ]
+      },
+      "properties": {
+        "name": "Geary Blvd & Park Presidio Blvd",
+        "stopid": "14755",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 28, 28R, 38, 38R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4747146,
+          37.80777819
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Bridge/Parking Lot",
+        "stopid": "14773",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4648894,
+          37.78508645
+        ]
+      },
+      "properties": {
+        "name": "California St & 6th Ave",
+        "stopid": "13824",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 28R, 44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4641034,
+          37.78124894
+        ]
+      },
+      "properties": {
+        "name": "Geary Blvd & 6th Ave",
+        "stopid": "14257",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 38, 38R, 44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4640314,
+          37.77372966
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & 6th Ave",
+        "stopid": "14732",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 5R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4617101,
+          37.80281368
+        ]
+      },
+      "properties": {
+        "name": "Crissy Field Terminal",
+        "stopid": "18150",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.456554,
+          37.78693298
+        ]
+      },
+      "properties": {
+        "name": "Sacramento St & Cherry St",
+        "stopid": "16293",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 33",
+        "other_systems": "PG Downtown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4549317,
+          37.77485882
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & Stanyan St",
+        "stopid": "14236",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 33",
+        "other_systems": "GGPS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4518515,
+          37.79940893
+        ]
+      },
+      "properties": {
+        "name": "Letterman Dr & Tide Bldg",
+        "stopid": "15293",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4529389,
+          37.76942903
+        ]
+      },
+      "properties": {
+        "name": "Haight St & Stanyan St",
+        "stopid": "14962",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 7, 33"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4472649,
+          37.79723617
+        ]
+      },
+      "properties": {
+        "name": "Lyon St & Greenwich St",
+        "stopid": "15331",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 43, 45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4427345,
+          37.80014715
+        ]
+      },
+      "properties": {
+        "name": "Chestnut St & Divisadero St",
+        "stopid": "13940",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 30, 28, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4472479,
+          37.78733061
+        ]
+      },
+      "properties": {
+        "name": "California St & Presidio Ave",
+        "stopid": "13892",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 2, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4476637,
+          37.78212189
+        ]
+      },
+      "properties": {
+        "name": "Masonic Ave & Geary Blvd",
+        "stopid": "15710",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 38, 38R, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4462671,
+          37.77595523
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & Masonic Ave",
+        "stopid": "14229",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 5R, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4455844,
+          37.77026065
+        ]
+      },
+      "properties": {
+        "name": "Haight St & Masonic Ave",
+        "stopid": "14957",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 6, 7, 33, 37, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.436242,
+          37.80002388
+        ]
+      },
+      "properties": {
+        "name": "Lombard St & Fillmore St",
+        "stopid": "15275",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 22, 28, 30, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4321854,
+          37.805183
+        ]
+      },
+      "properties": {
+        "name": "Marina Blvd & Laguna St",
+        "stopid": "14729",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4331347,
+          37.79298531
+        ]
+      },
+      "properties": {
+        "name": "Jackson St & Webster St",
+        "stopid": "15167",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.433092,
+          37.78625469
+        ]
+      },
+      "properties": {
+        "name": "Sutter St & Fillmore St",
+        "stopid": "16591",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 2, 22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4398148,
+          37.78545348
+        ]
+      },
+      "properties": {
+        "name": "Divisadero St & Sutter St",
+        "stopid": "14434",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 2. 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4319665,
+          37.77866875
+        ]
+      },
+      "properties": {
+        "name": "McAllister St & Fillmore St",
+        "stopid": "15391",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 5R, 22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4389813,
+          37.78053489
+        ]
+      },
+      "properties": {
+        "name": "Divisadero St & Eddy St",
+        "stopid": "14415",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 24, 31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.437893,
+          37.77489391
+        ]
+      },
+      "properties": {
+        "name": "Divisadero St & Hayes St",
+        "stopid": "14426",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 21, 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4254384,
+          37.80494515
+        ]
+      },
+      "properties": {
+        "name": "Van Ness Ave & North Point St",
+        "stopid": "16819",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 28, 30, 49",
+        "other_systems": "GGT 101, 130, 150"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4240856,
+          37.79888295
+        ]
+      },
+      "properties": {
+        "name": "Van Ness Ave & Union St",
+        "stopid": "18097",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 45, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4211882,
+          37.79158634
+        ]
+      },
+      "properties": {
+        "name": "Sacramento St & Polk St",
+        "stopid": "16311",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 1, 19, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213573,
+          37.78571057
+        ]
+      },
+      "properties": {
+        "name": "Van Ness Ave & Geary Blvd",
+        "stopid": "18091",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 2, 38, 38R, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4206657,
+          37.78019377
+        ]
+      },
+      "properties": {
+        "name": "McAllister St & Van Ness Ave",
+        "stopid": "15404",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 5, 5R, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.417502,
+          37.80743991
+        ]
+      },
+      "properties": {
+        "name": "Jones St & Beach St",
+        "stopid": "15184",
+        "primary_system": "Hist. Streetcar (F)",
+        "associated_lines": "SFM 28, F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4102894,
+          37.80839333
+        ]
+      },
+      "properties": {
+        "name": "The Embarcadero & Stockton St (Pier 39)",
+        "stopid": "14530",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8BX, 39, F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4044813,
+          37.80115425
+        ]
+      },
+      "properties": {
+        "name": "Union St & Montgomery St",
+        "stopid": "16775",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4030967,
+          37.80507155
+        ]
+      },
+      "properties": {
+        "name": "The Embarcadero & Sansome St",
+        "stopid": "17281",
+        "primary_system": "Hist. Streetcar (F)",
+        "associated_lines": "SFM F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4019386,
+          37.79650495
+        ]
+      },
+      "properties": {
+        "name": "Sansome St & Jackson St",
+        "stopid": "17863",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4044202,
+          37.77717854
+        ]
+      },
+      "properties": {
+        "name": "Harrison St & 6th St",
+        "stopid": "14970",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8AX, 8BX, 12,"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4023881,
+          37.77118829
+        ]
+      },
+      "properties": {
+        "name": "Townsend St & 7th St",
+        "stopid": "17960",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4144115,
+          37.77174368
+        ]
+      },
+      "properties": {
+        "name": "Folsom St & 11th St",
+        "stopid": "14665",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 12, 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4101405,
+          37.76579392
+        ]
+      },
+      "properties": {
+        "name": "16th St & Bryant St",
+        "stopid": "13281",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 22, 27, 33, 55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4023965,
+          37.76201346
+        ]
+      },
+      "properties": {
+        "name": "Rhode Island St & 18th St",
+        "stopid": "16192",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4191716,
+          37.75842715
+        ]
+      },
+      "properties": {
+        "name": "Mission St & 20th St",
+        "stopid": "15558",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 14, 14R, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4099616,
+          37.75934163
+        ]
+      },
+      "properties": {
+        "name": "Bryant St & 20th St",
+        "stopid": "13738",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4006059,
+          37.7550584
+        ]
+      },
+      "properties": {
+        "name": "De Haro St & 23rd St",
+        "stopid": "14356",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 19, 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4093128,
+          37.752887
+        ]
+      },
+      "properties": {
+        "name": "24th St & Bryant St",
+        "stopid": "13458",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 27, 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3964094,
+          37.74992273
+        ]
+      },
+      "properties": {
+        "name": "Connecticut St & Cesar Chavez St",
+        "stopid": "14132",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4138843,
+          37.74847304
+        ]
+      },
+      "properties": {
+        "name": "Cesar Chavez St & Folsom St",
+        "stopid": "13932",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 12, 27, 67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4068126,
+          37.73994102
+        ]
+      },
+      "properties": {
+        "name": "Bayshore Blvd & Cortland Ave",
+        "stopid": "13778",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 9, 9R, 23, 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4131404,
+          37.74422466
+        ]
+      },
+      "properties": {
+        "name": "Ripley St & Folsom St",
+        "stopid": "16210",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3799042,
+          37.7325942
+        ]
+      },
+      "properties": {
+        "name": "Hudson Ave & Ingalls St",
+        "stopid": "15044",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 15, 44, 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3731018,
+          37.72870405
+        ]
+      },
+      "properties": {
+        "name": "Kirkwood Ave & Earl St",
+        "stopid": "18052",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 15, 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3674162,
+          37.72898895
+        ]
+      },
+      "properties": {
+        "name": "Galvez Ave & Hill Ave",
+        "stopid": "15633",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.380752,
+          37.73884801
+        ]
+      },
+      "properties": {
+        "name": "Evans Ave & Keith St",
+        "stopid": "14550",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 19, 44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3866994,
+          37.72609586
+        ]
+      },
+      "properties": {
+        "name": "Ingalls St & Van Dyke Ave",
+        "stopid": "15113",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3893694,
+          37.71712055
+        ]
+      },
+      "properties": {
+        "name": "Ingerson Ave & Griffith St",
+        "stopid": "15115",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3928993,
+          37.70986545
+        ]
+      },
+      "properties": {
+        "name": "50 Thomas Mellon Cir",
+        "stopid": "14575",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4056223,
+          37.73225937
+        ]
+      },
+      "properties": {
+        "name": "San Bruno Ave & Silver Ave",
+        "stopid": "16365",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8AX, 9, 9R, 44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4037001,
+          37.72761876
+        ]
+      },
+      "properties": {
+        "name": "San Bruno Ave & Bacon St",
+        "stopid": "16357",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8AX, 9, 9R, 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4042717,
+          37.72092697
+        ]
+      },
+      "properties": {
+        "name": "Mansell St & Goettingen St",
+        "stopid": "15342",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 29, 56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4123807,
+          37.72283403
+        ]
+      },
+      "properties": {
+        "name": "Woolsey St & University St",
+        "stopid": "16980",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4061501,
+          37.71541914
+        ]
+      },
+      "properties": {
+        "name": "Rutland St & Campbell Ave",
+        "stopid": "17041",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4139419,
+          37.71625931
+        ]
+      },
+      "properties": {
+        "name": "Visitacion Valley Middle School",
+        "stopid": "17057",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4199266,
+          37.70850592
+        ]
+      },
+      "properties": {
+        "name": "Geneva Ave & Santos St",
+        "stopid": "14899",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8BX, 9, 9R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4231708,
+          37.71401417
+        ]
+      },
+      "properties": {
+        "name": "Sunnydale Ave/McLaren School",
+        "stopid": "16574",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 9, 9R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4257714,
+          37.71918261
+        ]
+      },
+      "properties": {
+        "name": "Dublin St & La Grande Ave",
+        "stopid": "10913",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 29, 52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4183664,
+          37.71883542
+        ]
+      },
+      "properties": {
+        "name": "Mansell St & John F Shelley Dr West",
+        "stopid": "15347",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4221139,
+          37.72544982
+        ]
+      },
+      "properties": {
+        "name": "Felton St & Madison St",
+        "stopid": "14590",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4150665,
+          37.73476313
+        ]
+      },
+      "properties": {
+        "name": "Crescent Ave & Ellsworth St",
+        "stopid": "17209",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM, 23, 67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4260176,
+          37.73396287
+        ]
+      },
+      "properties": {
+        "name": "Mission St & Murray St",
+        "stopid": "15605",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 14, 23, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.431623,
+          37.72861336
+        ]
+      },
+      "properties": {
+        "name": "Mission St & Silver Ave",
+        "stopid": "15621",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 14, 14R, 44, 49, 52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4360688,
+          37.72379393
+        ]
+      },
+      "properties": {
+        "name": "Ocean Ave & Persia Ave",
+        "stopid": "15801",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 14, 14R, 29, 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4332207,
+          37.71298548
+        ]
+      },
+      "properties": {
+        "name": "Geneva Ave & Munich St",
+        "stopid": "14888",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8BX, 43, 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4408025,
+          37.71645457
+        ]
+      },
+      "properties": {
+        "name": "Geneva Ave & Mission St",
+        "stopid": "14886",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 8, 8BX,  14, 43, 54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4464853,
+          37.71146289
+        ]
+      },
+      "properties": {
+        "name": "Mission St & Lowell St",
+        "stopid": "15602",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 14, 14R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4843391,
+          37.72609463
+        ]
+      },
+      "properties": {
+        "name": "Lake Merced Blvd/SFSU",
+        "stopid": "14840",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 18, 29, 57, 58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4487176,
+          37.73145654
+        ]
+      },
+      "properties": {
+        "name": "Monterey Blvd & Foerster St",
+        "stopid": "15433",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 23, 36, 43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4538237,
+          37.7368783
+        ]
+      },
+      "properties": {
+        "name": "Myra Way & Dalewood Way",
+        "stopid": "15452",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4492138,
+          37.74100344
+        ]
+      },
+      "properties": {
+        "name": "Teresita Blvd & Reposa Way",
+        "stopid": "16678",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4448604,
+          37.74705543
+        ]
+      },
+      "properties": {
+        "name": "Portola Dr & Burnett Ave",
+        "stopid": "16010",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 37, 48, 52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4374969,
+          37.74368291
+        ]
+      },
+      "properties": {
+        "name": "Diamond Heights Blvd & Gold Mine Dr",
+        "stopid": "14367",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4353429,
+          37.74162139
+        ]
+      },
+      "properties": {
+        "name": "Diamond St & Diamond Heights Blvd",
+        "stopid": "14394",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4404005,
+          37.73506898
+        ]
+      },
+      "properties": {
+        "name": "Bosworth St & Elk St",
+        "stopid": "13697",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4948471,
+          37.75356628
+        ]
+      },
+      "properties": {
+        "name": "Noriega St & Sunset Blvd",
+        "stopid": "15764",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 7, 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4949838,
+          37.74768613
+        ]
+      },
+      "properties": {
+        "name": "Sunset Blvd & Quintara St",
+        "stopid": "16548",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 29, 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5079252,
+          37.75093453
+        ]
+      },
+      "properties": {
+        "name": "Ortega St & 48th Ave",
+        "stopid": "15828",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4869993,
+          37.73875991
+        ]
+      },
+      "properties": {
+        "name": "Vicente St & 30th Ave",
+        "stopid": "16835",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4708263,
+          37.7488832
+        ]
+      },
+      "properties": {
+        "name": "14th Ave & Quintara St",
+        "stopid": "13247",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 6, 66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4457848,
+          37.75043546
+        ]
+      },
+      "properties": {
+        "name": "Parkridge Dr & Burnett Ave",
+        "stopid": "16086",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4342505,
+          37.75138931
+        ]
+      },
+      "properties": {
+        "name": "24th St & Castro St",
+        "stopid": "13462",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 24, 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4443211,
+          37.75829078
+        ]
+      },
+      "properties": {
+        "name": "Clayton St & Market St",
+        "stopid": "14080",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 33, 37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4689723,
+          37.77055198
+        ]
+      },
+      "properties": {
+        "name": "Hagiwara Tea Garden Dr/de Young Museum",
+        "stopid": "14772",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 44",
+        "other_systems": "GGPS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4776481,
+          37.76564025
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Way & 19th Ave",
+        "stopid": "15309",
+        "primary_system": "Muni Bus",
+        "associated_lines": "SFM 7, 28, 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4931182,
+          37.77228777
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & 33rd Ave",
+        "stopid": "14211",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 5, 5R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5006027,
+          37.77196727
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & 40th Ave",
+        "stopid": "17729",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 5, 5R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4852373,
+          37.71162415
+        ]
+      },
+      "properties": {
+        "name": "Lake Merced Blvd & Lake Merced Hills Blvd",
+        "stopid": "14836",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4755709,
+          37.71416624
+        ]
+      },
+      "properties": {
+        "name": "Brotherhood Way & Church Access Rd",
+        "stopid": "17797",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.495575,
+          37.71612042
+        ]
+      },
+      "properties": {
+        "name": "515 John Muir Dr",
+        "stopid": "15125",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5000275,
+          37.71900626
+        ]
+      },
+      "properties": {
+        "name": "John Muir Dr & Skyline Blvd",
+        "stopid": "15131",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5024415,
+          37.7264376
+        ]
+      },
+      "properties": {
+        "name": "Skyline Blvd & Harding Rd",
+        "stopid": "16431",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4915946,
+          37.73427311
+        ]
+      },
+      "properties": {
+        "name": "Sloat Blvd & 34th Ave",
+        "stopid": "16441",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4800548,
+          37.73466964
+        ]
+      },
+      "properties": {
+        "name": "Sloat Blvd & Crestlake Dr",
+        "stopid": "16456",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4852547,
+          37.75378068
+        ]
+      },
+      "properties": {
+        "name": "Noriega St & 27th Ave",
+        "stopid": "15744",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.473109,
+          37.75531134
+        ]
+      },
+      "properties": {
+        "name": "Noriega St & 16th Ave",
+        "stopid": "15739",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4904228,
+          37.76496811
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Way & 31st Ave",
+        "stopid": "15320",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5103756,
+          37.76799985
+        ]
+      },
+      "properties": {
+        "name": "Great Hwy/Beach Chalet",
+        "stopid": "14779",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4768512,
+          37.7730315
+        ]
+      },
+      "properties": {
+        "name": "Fulton St & 18th Ave",
+        "stopid": "14742",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 5, 5R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4613261,
+          37.75547881
+        ]
+      },
+      "properties": {
+        "name": "345 Warren Dr",
+        "stopid": "16908",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4559107,
+          37.78157277
+        ]
+      },
+      "properties": {
+        "name": "Geary Blvd & Commonwealth St",
+        "stopid": "14292",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 38"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4487181,
+          37.80502382
+        ]
+      },
+      "properties": {
+        "name": "Mason St & Yacht Rd (Crissy Field East Beach)",
+        "stopid": "18023",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3985337,
+          37.73826887
+        ]
+      },
+      "properties": {
+        "name": "Palou Ave & Rankin St",
+        "stopid": "15884",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 23, 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4187626,
+          37.73932593
+        ]
+      },
+      "properties": {
+        "name": "Cortland Ave & Bocana St",
+        "stopid": "14146",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4136079,
+          37.72996281
+        ]
+      },
+      "properties": {
+        "name": "Silver Ave & Dartmouth St",
+        "stopid": "16405",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4378882,
+          37.75597983
+        ]
+      },
+      "properties": {
+        "name": "Eureka St & 21st St",
+        "stopid": "14538",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4565266,
+          37.74164487
+        ]
+      },
+      "properties": {
+        "name": "Portola Dr & Waithman Way",
+        "stopid": "16122",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 43, 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4410506,
+          37.79174128
+        ]
+      },
+      "properties": {
+        "name": "Jackson St & Divisadero St",
+        "stopid": "15145",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4136866,
+          37.78867859
+        ]
+      },
+      "properties": {
+        "name": "Sutter St & Jones St",
+        "stopid": "16595",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 2, 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4165541,
+          37.79576042
+        ]
+      },
+      "properties": {
+        "name": "Pacific Ave & Leavenworth St",
+        "stopid": "15845",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 12",
+        "other_systems": "CC PH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4197,
+          37.801886
+        ]
+      },
+      "properties": {
+        "name": "Hyde St & Lombard St",
+        "stopid": "15078",
+        "primary_system": "Cable Car",
+        "associated_lines": "CC PH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4410159,
+          37.76536911
+        ]
+      },
+      "properties": {
+        "name": "Roosevelt Way & Museum Way",
+        "stopid": "16240",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.460799,
+          37.73552185
+        ]
+      },
+      "properties": {
+        "name": "Miraloma Dr & Yerba Buena Ave",
+        "stopid": "15519",
+        "primary_system": "Muni Bus (Addl.)",
+        "associated_lines": "SFM 43"
+      }
+    }
+  ]
+}

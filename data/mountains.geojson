@@ -1,0 +1,249 @@
+{
+  "type": "FeatureCollection",
+  "name": "SF Hills >400ft (Mountain question)",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.453842,
+          37.73889839
+        ]
+      },
+      "properties": {
+        "name": "Mount Davidson",
+        "height": "925ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4571905,
+          37.75825697
+        ]
+      },
+      "properties": {
+        "name": "Mount Sutro",
+        "height": "911ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4474255,
+          37.7529024
+        ]
+      },
+      "properties": {
+        "name": "Twin Peaks*",
+        "height": "910ft (S), 904ft (N)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4698886,
+          37.74996637
+        ]
+      },
+      "properties": {
+        "name": "Larsen Peak",
+        "height": "725ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4376443,
+          37.74155812
+        ]
+      },
+      "properties": {
+        "name": "Gold Mine Hill",
+        "height": "679ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4717256,
+          37.75644755
+        ]
+      },
+      "properties": {
+        "name": "Grand View",
+        "height": "666ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4476995,
+          37.7599124
+        ]
+      },
+      "properties": {
+        "name": "Tank Hill",
+        "height": "650ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4455699,
+          37.76339571
+        ]
+      },
+      "properties": {
+        "name": "Mount Olympus",
+        "height": "570ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4415335,
+          37.76783167
+        ]
+      },
+      "properties": {
+        "name": "Buena Vista Heights",
+        "height": "569ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4625737,
+          37.71805511
+        ]
+      },
+      "properties": {
+        "name": "Lakeview and Ashton Mini Park",
+        "height": "525ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219328,
+          37.71915231
+        ]
+      },
+      "properties": {
+        "name": "Visitacion Knob (McLaren Park)",
+        "height": "515ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.438578,
+          37.76532024
+        ]
+      },
+      "properties": {
+        "name": "Corona Heights",
+        "height": "510ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3929046,
+          37.71545558
+        ]
+      },
+      "properties": {
+        "name": "Bayview Hill",
+        "height": "500ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4136342,
+          37.7430406
+        ]
+      },
+      "properties": {
+        "name": "Bernal Heights",
+        "height": "450ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4753016,
+          37.76867649
+        ]
+      },
+      "properties": {
+        "name": "Strawberry Hill",
+        "height": "412ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4507063,
+          37.77658126
+        ]
+      },
+      "properties": {
+        "name": "Lone Mountain",
+        "height": "400ft"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Note: these are the 16 hills in San Francisco that are higher than 400ft."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "* Noe and Eureka Peak are counted as a single mountain. Proximity is to be measured using the most reviewed Google Maps pin."
+      }
+    }
+  ]
+}
