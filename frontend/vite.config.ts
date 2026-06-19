@@ -23,9 +23,11 @@ export default defineConfig({
     }),
   ],
   server: {
-    // Proxy API + WebSocket calls to the FastAPI backend during development.
+    // Proxy API, health, and WebSocket calls to the FastAPI backend during development.
     proxy: {
-      '/api': { target: 'http://localhost:8000', changeOrigin: true, ws: true },
+      '/api': { target: 'http://localhost:8000', changeOrigin: true },
+      '/health': { target: 'http://localhost:8000', changeOrigin: true },
+      '/ws': { target: 'ws://localhost:8000', ws: true, changeOrigin: true },
     },
   },
 })

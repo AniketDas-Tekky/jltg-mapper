@@ -1,13 +1,26 @@
-function App() {
-  return (
-    <main className="min-h-dvh bg-slate-900 text-slate-100 flex flex-col items-center justify-center gap-3 p-6 text-center">
-      <h1 className="text-3xl font-bold">jltg-mapper</h1>
-      <p className="text-slate-400 max-w-md">
-        SF Hide &amp; Seek companion. Dev environment is set up — map, questions, and sync come
-        next. See <code className="text-slate-200">docs/DESIGN.md</code>.
-      </p>
-    </main>
-  )
-}
+/**
+ * App routes (react-router-dom). Each authenticated page opens its own sync session via
+ * `useSync`, reading derived state from the Zustand store. Unknown paths -> Join.
+ */
 
-export default App
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import Join from './pages/Join';
+import Lobby from './pages/Lobby';
+import SeekerView from './pages/SeekerView';
+import HiderView from './pages/HiderView';
+import Scoreboard from './pages/Scoreboard';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Join />} />
+        <Route path="/lobby" element={<Lobby />} />
+        <Route path="/seeker" element={<SeekerView />} />
+        <Route path="/hider" element={<HiderView />} />
+        <Route path="/scoreboard" element={<Scoreboard />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}

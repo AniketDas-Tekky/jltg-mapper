@@ -1,1 +1,13 @@
 @import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* MapLibre canvas should fill its container. */
+.maplibregl-map {
+  height: 100%;
+}

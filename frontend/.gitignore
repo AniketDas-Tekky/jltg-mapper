@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Geo assets: copied from repo data/ (see scripts/copy_assets.sh) and the large gitignored
+# PMTiles basemap (see scripts/build_basemap.sh). Regenerated, not source-controlled.
+public/data
+public/basemap
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
