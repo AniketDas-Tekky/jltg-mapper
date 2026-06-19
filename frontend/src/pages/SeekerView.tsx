@@ -7,7 +7,8 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MapView from '../components/Map';
-import { RunClock, elapsedSeconds } from '../components/RunClock';
+import { RunClock } from '../components/RunClock';
+import { elapsedSeconds } from '../lib/time';
 import { getCurrentPosition } from '../lib/geo';
 import { QUESTION_OPTIONS } from '../lib/questions';
 import { useStore } from '../lib/store';

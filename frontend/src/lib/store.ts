@@ -48,6 +48,13 @@ export interface StoreState {
   session: Session | null;
   events: GameEvent[];
   state: GameState;
+  /**
+   * Server-authoritative surviving zone ids. Zone elimination runs Shapely on the
+   * backend (the browser can't), so the client reducer no-ops `question_answered`;
+   * this overlay carries the real remaining set, refreshed from `GET /state` after
+   * any zone-affecting event. When set, it overrides the reducer's `remaining_zone_ids`.
+   */
+  serverZones: number[] | null;
   connectionStatus: ConnectionStatus;
   selectedLayers: Record<string, boolean>;
 
@@ -56,15 +63,23 @@ export interface StoreState {
   setEvents: (events: GameEvent[]) => void;
   /** Merge new events into the log (idempotent on client_event_id) and re-reduce. */
   mergeEvents: (incoming: GameEvent[]) => void;
+  /** Apply the server's authoritative surviving-zone set (overrides the reducer). */
+  applyServerZones: (ids: number[]) => void;
   setConnectionStatus: (s: ConnectionStatus) => void;
   toggleLayer: (id: string) => void;
   reset: () => void;
+}
+
+/** Overlay the server-authoritative zone set onto a freshly-reduced state. */
+function withZones(state: GameState, serverZones: number[] | null): GameState {
+  return serverZones ? { ...state, remaining_zone_ids: serverZones } : state;
 }
 
 export const useStore = create<StoreState>((set, get) => ({
   session: loadSession(),
   events: [],
   state: initialState(),
+  serverZones: null,
   connectionStatus: 'connecting',
   selectedLayers: {},
 
@@ -75,13 +90,16 @@ export const useStore = create<StoreState>((set, get) => ({
 
   setEvents: (events) => {
     const deduped = dedupe(events);
-    set({ events: deduped, state: reduceEvents(deduped) });
+    set({ events: deduped, state: withZones(reduceEvents(deduped), get().serverZones) });
   },
 
   mergeEvents: (incoming) => {
     const merged = dedupe([...get().events, ...incoming]);
-    set({ events: merged, state: reduceEvents(merged) });
+    set({ events: merged, state: withZones(reduceEvents(merged), get().serverZones) });
   },
+
+  applyServerZones: (ids) =>
+    set((st) => ({ serverZones: ids, state: { ...st.state, remaining_zone_ids: ids } })),
 
   setConnectionStatus: (connectionStatus) => set({ connectionStatus }),
 
@@ -90,7 +108,7 @@ export const useStore = create<StoreState>((set, get) => ({
 
   reset: () => {
     saveSession(null);
-    set({ session: null, events: [], state: initialState(), selectedLayers: {} });
+    set({ session: null, events: [], state: initialState(), serverZones: null, selectedLayers: {} });
   },
 }));
 

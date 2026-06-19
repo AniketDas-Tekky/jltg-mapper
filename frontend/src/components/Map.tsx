@@ -88,7 +88,6 @@ export function MapView({ children }: MapViewProps) {
         <GeolocateControl
           position="top-right"
           trackUserLocation
-          showUserHeading
           positionOptions={{ enableHighAccuracy: true }}
         />
 

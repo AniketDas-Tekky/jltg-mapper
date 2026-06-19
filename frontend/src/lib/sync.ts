@@ -23,9 +23,23 @@ import {
   queueOutbox,
   type StoredEvent,
 } from './db';
-import { getEvents, postEvent } from './api';
+import { getEvents, getState, postEvent } from './api';
 import { useStore } from './store';
 import type { EventResponse, WsFrame } from './types';
+
+/**
+ * Events whose effect on the surviving-zone set is computed server-side (Shapely
+ * deduction for answers; manual overrides; round resets). After ingesting one we
+ * re-pull the authoritative `remaining_zone_ids` from `GET /state`.
+ */
+const ZONE_EVENTS = new Set([
+  'question_answered',
+  'zone_excluded',
+  'zone_restored',
+  'round_ended',
+  'role_rotated',
+  'game_created',
+]);
 
 function wsUrl(gameId: string, token: string): string {
   const proto = location.protocol === 'https:' ? 'wss' : 'ws';
@@ -49,11 +63,21 @@ function uuid(): string {
 }
 
 /** Persist a confirmed event to Dexie + the store, and drop any matching outbox entry. */
-async function ingest(gameId: string, ev: EventResponse): Promise<void> {
+async function ingest(gameId: string, token: string, ev: EventResponse): Promise<void> {
   const stored: StoredEvent = { ...ev, game_id: gameId };
   await putEvent(stored);
   await clearOutboxItem(ev.client_event_id);
   useStore.getState().mergeEvents([stored]);
+  // The browser can't run the deduction geometry; for events whose zone effect is
+  // server-computed, pull the authoritative surviving set and overlay it.
+  if (ZONE_EVENTS.has(ev.type)) {
+    try {
+      const snap = await getState(gameId, token);
+      useStore.getState().applyServerZones(snap.state.remaining_zone_ids);
+    } catch {
+      /* offline — the next reconnect/state snapshot will reconcile */
+    }
+  }
 }
 
 export function startSync(gameId: string, token: string): SyncHandle {
@@ -81,7 +105,7 @@ export function startSync(gameId: string, token: string): SyncHandle {
           },
           token,
         );
-        await ingest(gameId, ev);
+        await ingest(gameId, token, ev);
       } catch (err) {
         // 409 == already applied: the catch-up GET will pull it in; drop from outbox.
         const status = (err as { status?: number }).status;
@@ -97,7 +121,7 @@ export function startSync(gameId: string, token: string): SyncHandle {
     const since = await lastSeq(gameId);
     try {
       const events = await getEvents(gameId, since, token);
-      for (const ev of events) await ingest(gameId, ev);
+      for (const ev of events) await ingest(gameId, token, ev);
     } catch {
       /* offline — the WS snapshot or next reconnect will reconcile */
     }
@@ -131,7 +155,7 @@ export function startSync(gameId: string, token: string): SyncHandle {
         return;
       }
       if (frame.kind === 'event' || frame.kind === 'ack') {
-        await ingest(gameId, frame.event);
+        await ingest(gameId, token, frame.event);
       } else if (frame.kind === 'state') {
         // Snapshot of derived state; our log is the source of truth, so pull missing events.
         await catchUp();
@@ -188,7 +212,7 @@ export function startSync(gameId: string, token: string): SyncHandle {
       // Offline: try REST opportunistically, else leave it queued for the next flush.
       try {
         const ev = await postEvent(gameId, { client_event_id: clientEventId, type, payload }, token);
-        await ingest(gameId, ev);
+        await ingest(gameId, token, ev);
       } catch {
         /* stays in outbox; flushed on reconnect */
       }
