@@ -60,8 +60,27 @@ def _noop_deduction(
     return set(remaining_zone_ids)
 
 
-# Task 8 may overwrite this to make the real engine the default everywhere.
-DEFAULT_DEDUCTION_HOOK: DeductionHook = _noop_deduction
+def _real_deduction(
+    remaining_zone_ids: set[int],
+    question_asked_payload: dict[str, Any],
+    question_answered_payload: dict[str, Any],
+) -> set[int]:
+    """Default hook: delegate to the geometry engine in :mod:`app.deduction`.
+
+    Imported lazily so merely importing the reducer never triggers geo-asset I/O — the
+    Shapely/STRtree assets are loaded (and cached) only the first time a question is actually
+    answered. The engine itself is fail-open, so this can never break event reduction.
+    """
+    from app.deduction import filter_zones
+
+    return filter_zones(
+        remaining_zone_ids, question_asked_payload, question_answered_payload
+    )
+
+
+# The real geometry engine is the default everywhere. Tests may still pass an explicit
+# ``deduction_hook`` (e.g. ``_noop_deduction``) to override it.
+DEFAULT_DEDUCTION_HOOK: DeductionHook = _real_deduction
 
 # --- end deduction seam wiring (handlers below call self.deduction_hook) ---
 
