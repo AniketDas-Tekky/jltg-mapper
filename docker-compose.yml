@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: jltg-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: jltg
+      POSTGRES_PASSWORD: jltg
+      POSTGRES_DB: jltg
+    ports:
+      - "5432:5432"
+    volumes:
+      - jltg-postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jltg -d jltg"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  jltg-postgres-data:

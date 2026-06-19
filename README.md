@@ -30,8 +30,22 @@ docs/        design & pipeline docs
 
 - [uv](https://docs.astral.sh/uv/) (Python tooling)
 - Node 22 LTS + [pnpm](https://pnpm.io/) (managed via [Volta](https://volta.sh/))
+- [Docker](https://docs.docker.com/get-docker/) (local Postgres via Compose)
 
 ## Quick start
+
+The root `Makefile` wraps the common backend (`uv`) + frontend (`pnpm`) + database
+(Docker) workflows. Run `make help` to list every target.
+
+```bash
+make install      # backend deps (uv sync) + frontend deps (pnpm install)
+cp backend/.env.example backend/.env
+make db-up        # start local Postgres in Docker (jltg/jltg/jltg on :5432)
+make migrate      # apply DB migrations (once alembic is configured)
+make dev          # run backend (:8000) + frontend (:5173) together
+```
+
+Prefer running things by hand? The underlying commands still work:
 
 ```bash
 # Backend
@@ -44,3 +58,23 @@ cd frontend
 pnpm install
 pnpm dev                                # http://localhost:5173
 ```
+
+## Make targets
+
+| Target          | What it does                                                        |
+|-----------------|---------------------------------------------------------------------|
+| `make install`  | Install backend (`uv sync`) and frontend (`pnpm install`) deps.     |
+| `make dev`      | Run backend + frontend dev servers together (Ctrl-C stops both).    |
+| `make backend`  | Run the backend dev server (`uvicorn --reload`, :8000).             |
+| `make frontend` | Run the frontend dev server (`vite`, :5173).                        |
+| `make db-up`    | Start local Postgres 16 in Docker (`jltg-postgres`, :5432).         |
+| `make db-down`  | Stop local Postgres (keeps the named data volume).                  |
+| `make migrate`  | Apply Alembic migrations (no-op until `backend/alembic.ini` exists).|
+| `make test`     | Run backend tests (`pytest`).                                       |
+| `make lint`     | Lint backend (`ruff`) and frontend (`eslint`).                      |
+| `make build`    | Build the frontend production bundle.                               |
+| `make data`     | Build geo-data assets (no-op until `scripts/build_*` exist).        |
+
+Local Postgres is defined in [`docker-compose.yml`](docker-compose.yml) and persists to a
+named volume (`jltg-postgres-data`). The backend's `JLTG_DATABASE_URL` in
+`backend/.env.example` already points at it.
