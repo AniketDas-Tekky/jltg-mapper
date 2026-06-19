@@ -58,7 +58,7 @@ migrate: ## Apply database migrations (alembic) if configured
 	fi
 
 test: ## Run backend tests (pytest)
-	cd $(BACKEND_DIR) && $(UV) run pytest
+	cd $(BACKEND_DIR) && $(UV) run python -m pytest
 
 lint: ## Lint backend (ruff) and frontend (eslint)
 	cd $(BACKEND_DIR) && $(UV) run ruff check .
