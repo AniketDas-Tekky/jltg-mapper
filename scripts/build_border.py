@@ -63,9 +63,11 @@ SF_MAINLAND = [
     (-122.4050, 37.7088),  # southern city limit — SE (Brisbane line)
     (-122.3950, 37.7120),
     (-122.3870, 37.7210),  # Candlestick Point
-    (-122.3780, 37.7290),
-    (-122.3760, 37.7380),  # Hunters Point
-    (-122.3700, 37.7400),
+    (-122.3790, 37.7240),
+    (-122.3690, 37.7250),  # Hunters Point shipyard — south
+    (-122.3615, 37.7285),  # easternmost shipyard (covers Kirkwood/Galvez stops)
+    (-122.3625, 37.7350),
+    (-122.3690, 37.7400),  # back toward India Basin
     (-122.3640, 37.7470),  # India Basin
     (-122.3770, 37.7560),
     (-122.3860, 37.7620),
@@ -88,17 +90,21 @@ SF_MAINLAND = [
     (-122.5145, 37.7855),  # close ring
 ]
 
-# Treasure Island + Yerba Buena Island (in-play island in the bay).
+# Treasure Island + Yerba Buena Island (in-play island in the bay). Generous
+# trace of the man-made TI rectangle (north) plus YBI (south); the rough outline
+# only needs to cover the curated TI hiding stops well enough to clip them.
 TREASURE_ISLAND = [
-    (-122.3760, 37.8090),
-    (-122.3700, 37.8240),
-    (-122.3640, 37.8290),
-    (-122.3580, 37.8260),
-    (-122.3590, 37.8180),
-    (-122.3640, 37.8090),
-    (-122.3690, 37.8030),  # Yerba Buena Island
-    (-122.3730, 37.8050),
-    (-122.3760, 37.8090),
+    (-122.3765, 37.8205),
+    (-122.3745, 37.8320),  # north tip of Treasure Island
+    (-122.3675, 37.8315),
+    (-122.3650, 37.8235),
+    (-122.3655, 37.8170),  # TI south / YBI north
+    (-122.3695, 37.8120),
+    (-122.3650, 37.8065),  # Yerba Buena Island south
+    (-122.3715, 37.8050),
+    (-122.3770, 37.8120),
+    (-122.3775, 37.8190),
+    (-122.3765, 37.8205),
 ]
 
 # Southern clip: anything south of the SF / Daly City limit is excluded

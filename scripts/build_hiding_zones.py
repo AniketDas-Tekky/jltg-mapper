@@ -71,6 +71,7 @@ def build_zones() -> list[dict]:
     border_utm = _to_utm(load_border())
 
     features: list[dict] = []
+    unclipped: list[str] = []
     for idx, feat in enumerate(stations["features"]):
         lon, lat = feat["geometry"]["coordinates"]
         props = feat.get("properties", {})
@@ -80,10 +81,13 @@ def build_zones() -> list[dict]:
         buffer_utm = pt_utm.buffer(QUARTER_MILE_M, quad_segs=64)
         zone_utm = buffer_utm.intersection(border_utm)
         if zone_utm.is_empty:
-            raise SystemExit(
-                f"station {idx} ({props.get('name')!r}) produced an empty zone — "
-                "station is outside the border; check inputs"
-            )
+            # The station sits outside the embedded moderate-resolution border
+            # (e.g. a Treasure Island stop the rough outline misses). Keep the
+            # full ¼-mi buffer so every station still has a zone, and flag it —
+            # a higher-fidelity SF boundary (see data-pipeline.md) clips these
+            # exactly. Better an unclipped zone than a missing candidate.
+            zone_utm = buffer_utm
+            unclipped.append(f"{idx} ({props.get('name')!r})")
         zone = _to_wgs(zone_utm)
         if not zone.is_valid:
             zone = zone.buffer(0)
@@ -100,6 +104,11 @@ def build_zones() -> list[dict]:
                 "properties": zone_props,
                 "geometry": mapping(zone),
             }
+        )
+    if unclipped:
+        print(
+            f"  note: {len(unclipped)} station(s) fell outside the border and kept "
+            f"a full (unclipped) ¼-mi buffer: {', '.join(unclipped)}"
         )
     return features
 

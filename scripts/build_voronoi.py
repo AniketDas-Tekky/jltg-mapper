@@ -93,14 +93,27 @@ def build_layer(layer: str, border_utm: BaseGeometry) -> dict | None:
         print(f"  skip {layer}: no features")
         return None
 
-    # Project points to metric, remembering each point's properties.
+    # Project points to metric, remembering each point's properties. POI sources
+    # are mostly Points, but some features carry a Polygon/MultiPolygon (or a
+    # null geometry); use a representative point and skip empties so a single odd
+    # feature can't crash the layer.
     pts_utm: list[Point] = []
     props_by_xy: dict[tuple[float, float], dict] = {}
     for feat in feats:
-        lon, lat = feat["geometry"]["coordinates"]
-        p = _to_utm(Point(lon, lat))
+        geom = feat.get("geometry")
+        if not geom:
+            continue
+        g = shape(geom)
+        if g.is_empty:
+            continue
+        gp = g if g.geom_type == "Point" else g.representative_point()
+        p = _to_utm(Point(gp.x, gp.y))
         pts_utm.append(p)
         props_by_xy[(round(p.x, 3), round(p.y, 3))] = feat.get("properties", {})
+
+    if not pts_utm:
+        print(f"  skip {layer}: no usable point geometries")
+        return None
 
     # Voronoi needs an envelope at least as large as the clip region.
     envelope = border_utm.envelope.buffer(2000)
