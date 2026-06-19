@@ -1,0 +1,14 @@
+# Standalone deps for the geo-data build scripts (scripts/build_*.py).
+# These are intentionally NOT added to backend/ — run the scripts in an
+# ephemeral environment instead, e.g.:
+#
+#   uv run --with shapely,pyproj python scripts/build_border.py
+#
+# or install this file into a throwaway venv:
+#
+#   uv venv scripts/.venv && uv pip install -r scripts/requirements.txt
+#
+shapely>=2.0
+pyproj>=3.4
+# test-only:
+pytest>=7.0
